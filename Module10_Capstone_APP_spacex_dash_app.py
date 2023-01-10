@@ -84,7 +84,7 @@ def get_pie_chart(entered_site, slider_input):
     f_df = f_df[f_df['Payload Mass (kg)'] <= float(slider_input[1])]
 
     scatter_fig = px.scatter(f_df, x='Payload Mass (kg)', y='class', 
-    color='Booster Version Category', title='Success rate and Payload Mass (kg)')
+    color='Booster Version', title='Success rate and Payload Mass (kg)')
                                 
     success_payload_scatter_chart = scatter_fig
 
