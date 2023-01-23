@@ -22,7 +22,7 @@ Date: Jan, 2023
     2. The best performing model was the Decision Tree Classifier;
     3. All machine learning models appear to be overfitting the testing data due to a small sample size.
     
- ##Introduction
+ ## Introduction
     • SpaceX (advertises) Falcon 9 rocket launches costs approximately 62 million dollars;
     other providers cost upward of 165 million dollars each, much of the savings is
     because SpaceX can reuse the first stage.
@@ -30,7 +30,7 @@ Date: Jan, 2023
     of a launch. This information may be important to investors and competitors
     considering the cost and future of rocket launches.
   
-  ##Methodology
+  ## Methodology
       (*) Data collection methodology: SpaceX API GET Request and Web Scrapping (bs4) Wikipedia
       (*) Perform data wrangling: The data wrangling consisted of two sections: (1) Exploratory Data Analysis; (2) Deciding on Training Labels
       (*) Perform exploratory data analysis (EDA) using visualization and SQL: Pandas and Numpy Libraries + SQL queries. Seaborn and Ploty data visualizations.
