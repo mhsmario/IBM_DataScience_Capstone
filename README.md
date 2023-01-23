@@ -6,7 +6,7 @@ IBM data science capstone as part of the last module of the  IBM Data Science PR
 Learn more about the IBM professional certification [here](https://www.coursera.org/professional-certificates/ibm-data-science).
 
 
-##Executive Summary
+## Executive Summary
 The goal of this project is to predict if the first stage of the SpaceX Falcon 9 rocket will
 land successfully.
 
@@ -41,7 +41,7 @@ land successfully.
     (3) Decision Tree Classifier, and 
     (4) K-nearest neighbors.
 
-  ##Data Collection
+  ## Data Collection
   
     • Data was collected from SpaceX's API and scrapped from the Wikipedia (Falcon 9 and Falcon
   Heavy launches [page]((https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches))).
@@ -68,7 +68,7 @@ land successfully.
     • Create a landing outcome label;
     • Success = 1 and Failure = 0.
    
-   ##EDA with Data Visualization
+   ##E DA with Data Visualization
    
    (*) Plot Summary: We used plots to understand the relationship between the variables and the success rate. This understanding is key to predicting the outcome.
       • Plot 1: The Flight Number and Pay load Mass and overlay the outcome of the launch.
@@ -77,7 +77,7 @@ land successfully.
       • Plot 5: Flight Number and Orbit.
       • Plot 6: Launch success yearly trend.¶
       
-   ##EDA with SQL
+   ## EDA with SQL
     • In total 10 queries were performed as part of the EDA seeking to understand:
     • The Context: The first four queries were to understand the distinct launch sites, maximum and average
     payload mass used.
@@ -97,7 +97,7 @@ land successfully.
       • The Dashboard comprises of two visualizations – (1) a Pie Chart with the success ratio according to the site and (2) a scatter plot   displaying the relationship between Payload mass, landing outcome and Booster version used.
       • The goal was to identify which sites had the most (and least) successful landings and to further explore and quantify the ideal payload mass associated with successful outcomes.
     
-    ##Predictive Analysis (Classification)
+    ## Predictive Analysis (Classification)
     
       • Summarize how you built, evaluated, improved, and found the best performing classification model
       • You need present your model development process using key phrases and flowchart
