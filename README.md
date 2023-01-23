@@ -43,8 +43,7 @@ Date: Jan, 2023
 
   ## Data Collection
   
-    • Data was collected from SpaceX's API and scrapped from the Wikipedia (Falcon 9 and Falcon
-  Heavy launches [page]((https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches))).
+    • Data was collected from SpaceX's API and scrapped from the Wikipedia (Falcon 9 and Falcon Heavy launches [page](https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches) ).
   
     • From the API, our request focused on getting the following data regarding: rockets,
     launchpad, payload, the outcome of the landing, the type of the landing, number of flights with
@@ -68,7 +67,7 @@ Date: Jan, 2023
       • Create a landing outcome label;
       • Success = 1 and Failure = 0.
    
-   ##E DA with Data Visualization
+   ## EDA with Data Visualization
    
      (*) Plot Summary: We used plots to understand the relationship between the variables and the success rate. This understanding is key to predicting the outcome.
         • Plot 1: The Flight Number and Pay load Mass and overlay the outcome of the launch.
